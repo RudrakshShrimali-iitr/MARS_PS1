@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model binaries (too large for GitHub — download from Colab)
+models/deberta_sia/pytorch_model.bin
+models/deberta_sia/model.safetensors
+models/deberta_sia/adapter_model.*
+models/deberta_sia/*.bin
+models/deberta_sia/xgb_model.json
+models/deberta_sia/tfidf.pkl
+models/deberta_sia/kmeans.pkl
+models/deberta_sia/calibrator.pkl
+
+# Data (do not commit raw data)
+data/*.csv
+outputs/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,22 @@
+# SIA — Streamlit Cloud requirements (CPU-only, no torch CUDA)
+streamlit==1.35.0
+plotly==5.22.0
+
+torch==2.3.0
+transformers==4.41.2
+peft==0.11.1
+tokenizers==0.19.1
+huggingface-hub==0.23.2
+safetensors==0.4.3
+accelerate==0.30.1
+
+sentence-transformers==3.0.1
+
+xgboost==2.0.3
+scikit-learn==1.5.0
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+
+tabulate==0.9.0
+tqdm==4.66.4
